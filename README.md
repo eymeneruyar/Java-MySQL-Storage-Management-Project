@@ -1,19 +1,24 @@
 # Java-Hibernate-MySQL Storage-Management-Project
 
-Açıklama
+# Abstract
 
-## Kullanıcılar
 
-| Kullancı Adı  | Şifre |
+# General Information about Application
+
+
+## Users on Systems
+
+| Username  | Password |
 | ------------- |:-------------:|
 | eymen      | 12345     |
 | eymen123   | 12345     |
 
-## Kullanılan Diller ve Yetenekler
+#### Programming Languages and Libraries
+- :arrow_right: Java
+- :arrow_right: SQLite
+- :arrow_right: Jframe 
 
-:arrow_right: Java
-
-## Uygulama Görselleri
+## Application Images
 
 <p>
   
