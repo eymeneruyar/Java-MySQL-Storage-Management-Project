@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/depo</property>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password"></property>
+
+    <property name="format_sql">false</property>
+    <property name="show_sql">true</property>
+
+    <!-- DB schema will be updated if needed -->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+    <!-- Bütün entities paketinde ki class'lar buraya eklenmelidir.-->
+    <mapping class="Entities.Customer"></mapping>
+    <mapping class="Entities.User"></mapping>
+    <mapping class="Entities.Product"></mapping>
+    <mapping class="Entities.BoxOrder"></mapping>
+    <mapping class="Entities.BoxOrder_Cu_Pro"></mapping>
+    <mapping class="Entities.boxOfOrder"></mapping>
+    <mapping class="Entities.CompletedOrder"></mapping>
+    <mapping class="Entities.CashBoxIn"></mapping>
+    <mapping class="Entities.CashBoxOut"></mapping>
+    <mapping class="Entities.View_CashBoxInCompletedOrder"></mapping>
+    <mapping class="Entities.View_boxOrder_cuPro"></mapping>
+    <mapping class="Entities.View_CheckOutActions"></mapping>
+    <mapping class="Entities.ReportCOA"></mapping>
+
+
+  </session-factory>
+</hibernate-configuration>
