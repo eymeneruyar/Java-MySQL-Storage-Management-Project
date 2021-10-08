@@ -1,4 +1,4 @@
-# Java-Hibernate-MySQL Storage-Management-Project
+# Storage Management Project
 
 # Abstract
 The storage management program is developed for the management of products and sales. There are many sections in this program. These sections; "Dashboards", "Customer", "Storage Management", "Orders" and "Cash Box Management". You can examine this program by logging account. 
